@@ -3,8 +3,9 @@
 Este pacote contém um middleware que encapsula a implementação do Dependence Resolver utilizado pela classe HttpConfiguration
 
 1º - Instalando o pacote
+```bash
 Install-Package SimpleInjector.Integration.WebApi.Extensions -Pre
-
+```
 2º - Classe StartUp com a implementação do middleware
 
 ```C#
