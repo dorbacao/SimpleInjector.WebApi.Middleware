@@ -3,6 +3,9 @@
 Este pacote contém um middleware que encapsula a implementação do Dependence Resolver utilizado pela classe HttpConfiguration
 
 1º - Instalando o pacote
+
+https://www.nuget.org/packages/SimpleInjector.Integration.WebApi.Extensions/1.0.0-alpha
+
 ```bash
 Install-Package SimpleInjector.Integration.WebApi.Extensions -Pre
 ```
@@ -59,7 +62,7 @@ public class Startup
     }
 ```
 
-3º - Pacotes Instalados
+3º - Dependências de Pacotes
 
 ```xml
 <packages>
