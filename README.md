@@ -28,11 +28,6 @@ public class Startup
             httpConfig.EnsureInitialized();
             app.UseWebApi( httpConfig);
 
-#if DEBUG
-            app.UseErrorPage();
-            app.UseWelcomePage("/");
-#endif
-
         }
 
         private Container CreateContainer(IAppBuilder app)
