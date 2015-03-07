@@ -12,7 +12,6 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Microsoft.Owin.Cors;
 using Owin;
 using SimpleInjector;
 using SimpleInjector.Advanced;
