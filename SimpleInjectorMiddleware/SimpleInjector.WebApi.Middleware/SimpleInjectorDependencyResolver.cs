@@ -11,14 +11,14 @@ namespace SimpleInjector.WebApi.Middleware
     ///     Container de Injeção de Dependência do WebApi implementado
     ///     usando o SimpleInject.
     /// </summary>
-    public class SimpleInjectDependencyResolver
+    public class SimpleInjectorDependencyResolver
         : IDependencyResolver
     {
         private readonly Container _container;
 
         #region ' Constructor '
 
-        public SimpleInjectDependencyResolver(Container kernel)
+        public SimpleInjectorDependencyResolver(Container kernel)
         {
             if (kernel == null)
                 throw new ArgumentNullException("kernel");

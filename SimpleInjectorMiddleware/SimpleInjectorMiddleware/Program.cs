@@ -11,7 +11,7 @@ namespace SimpleInjectorMiddleware
     {
         static void Main(string[] args)
         {
-            const string url = "http://localhost:9004";
+            const string url = "http://localhost:7000";
 
             Console.Title = "Teste Middleware SimpleInjector";
 
