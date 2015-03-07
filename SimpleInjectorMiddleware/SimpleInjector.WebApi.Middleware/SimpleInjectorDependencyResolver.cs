@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http.Dependencies;
 
-namespace SimpleInjector.WebApi.Middleware
+namespace SimpleInjector.WebApi.Extensions
 {
     /// <summary>
     ///     Container de Injeção de Dependência do WebApi implementado
     ///     usando o SimpleInject.
     /// </summary>
-    public class SimpleInjectorDependencyResolver
+    internal class SimpleInjectorDependencyResolver
         : IDependencyResolver
     {
         private readonly Container _container;

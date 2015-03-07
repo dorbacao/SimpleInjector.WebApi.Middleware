@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleInjector.WebApi.Middleware
+namespace SimpleInjector.WebApi.Extensions
 {
     public static class ContainerExtensions
     {
