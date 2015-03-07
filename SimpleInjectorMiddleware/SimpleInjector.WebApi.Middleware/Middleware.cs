@@ -9,8 +9,7 @@ using System.Web.Http;
 namespace SimpleInjector.WebApi.Middleware
 {
     public static class Middleware
-    {
-       
+    {       
         public static void UseSimpleInjector(this IAppBuilder app, Container container, HttpConfiguration configuration)
         {
             configuration.DependencyResolver = new SimpleInjectDependencyResolver(container);

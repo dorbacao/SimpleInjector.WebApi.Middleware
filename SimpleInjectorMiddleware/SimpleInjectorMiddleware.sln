@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjectorMiddleware", "SimpleInjectorMiddleware\SimpleInjectorMiddleware.csproj", "{49B09DC7-7480-4D8A-B650-886817D63E66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjector.WebApi.Middleware", "SimpleInjector.WebApi.Middleware\SimpleInjector.WebApi.Middleware.csproj", "{D51C248E-A245-4E59-B210-8FA227060548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{49B09DC7-7480-4D8A-B650-886817D63E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B09DC7-7480-4D8A-B650-886817D63E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B09DC7-7480-4D8A-B650-886817D63E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51C248E-A245-4E59-B210-8FA227060548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51C248E-A245-4E59-B210-8FA227060548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51C248E-A245-4E59-B210-8FA227060548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51C248E-A245-4E59-B210-8FA227060548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
