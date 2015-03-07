@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>SimpleInjector.WebApi.Middleware</id>
+    <id>SimpleInjector.Integration.WebApi.Extensions</id>
     <version>1.0.0-alpha</version>
     <authors>mvbios</authors>
     <owners>mvbios</owners>
@@ -13,6 +13,8 @@
     <releaseNotes>Este Middleware utiliza versão 2.7.3-alpha1 do SimpleInjector</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Tag1 Tag2</tags>
+
+
     <dependencies>
       <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.3" />
       <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.3" />
@@ -22,6 +24,12 @@
       <dependency id="Owin" version="1.0" />
       <dependency id="SimpleInjector" version="2.7.3-alpha1" />
       <dependency id="SimpleInjector.Extensions.ExecutionContextScoping" version="2.7.3-alpha1" />
+      <dependency id="SimpleInjector.Integration.WebApi" version="2.7.3-alpha1" />
+
     </dependencies>
   </metadata>
+ <files>
+    <file src="bin\Debug\SimpleInjector.Integration.WebApi.Extensions.dll" target="lib\net40" />
+
+  </files>
 </package>

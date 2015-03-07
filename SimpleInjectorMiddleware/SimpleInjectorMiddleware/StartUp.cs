@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
-using SimpleInjector.WebApi.Extensions;
+using SimpleInjector.Integration.WebApi.Extensions;
 namespace SimpleInjectorMiddleware
 {
     public class StartUp

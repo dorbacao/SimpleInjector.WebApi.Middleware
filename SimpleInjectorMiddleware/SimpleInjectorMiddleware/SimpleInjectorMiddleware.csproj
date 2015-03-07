@@ -108,9 +108,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleInjector.WebApi.Middleware\SimpleInjector.WebApi.Extensions.csproj">
+    <ProjectReference Include="..\SimpleInjector.WebApi.Middleware\SimpleInjector.Integration.WebApi.Extensions.csproj">
       <Project>{d51c248e-a245-4e59-b210-8fa227060548}</Project>
-      <Name>SimpleInjector.WebApi.Extensions</Name>
+      <Name>SimpleInjector.Integration.WebApi.Extensions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -23,7 +23,7 @@ using System.Linq.Expressions;
 using System.Reflection.Emit;
 using SimpleInjector.Extensions.ExecutionContextScoping;
 
-namespace SimpleInjector.WebApi.Extensions
+namespace SimpleInjector.Integration.WebApi.Extensions
 {
     public static class Middleware
     {       

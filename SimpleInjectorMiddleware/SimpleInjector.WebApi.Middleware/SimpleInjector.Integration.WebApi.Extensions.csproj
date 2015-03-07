@@ -7,8 +7,8 @@
     <ProjectGuid>{D51C248E-A245-4E59-B210-8FA227060548}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleInjector.WebApi.Extensions</RootNamespace>
-    <AssemblyName>SimpleInjector.WebApi.Extensions</AssemblyName>
+    <RootNamespace>SimpleInjector.Integration.WebApi.Extensions</RootNamespace>
+    <AssemblyName>SimpleInjector.Integration.WebApi.Extensions</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

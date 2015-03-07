@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleInjector.WebApi.Extensions
+namespace SimpleInjector.Integration.WebApi.Extensions
 {
-    public static class ContainerExtensions
+    internal static class ContainerExtensions
     {
-        public static object TryGet(this Container container, Type type)
+        internal static object TryGet(this Container container, Type type)
         {
             try
             {

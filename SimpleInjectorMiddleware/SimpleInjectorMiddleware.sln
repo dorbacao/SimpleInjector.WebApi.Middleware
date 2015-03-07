@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjectorMiddleware", "SimpleInjectorMiddleware\SimpleInjectorMiddleware.csproj", "{49B09DC7-7480-4D8A-B650-886817D63E66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjector.WebApi.Extensions", "SimpleInjector.WebApi.Middleware\SimpleInjector.WebApi.Extensions.csproj", "{D51C248E-A245-4E59-B210-8FA227060548}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInjector.Integration.WebApi.Extensions", "SimpleInjector.WebApi.Middleware\SimpleInjector.Integration.WebApi.Extensions.csproj", "{D51C248E-A245-4E59-B210-8FA227060548}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{618F6872-1153-4C4D-A349-5DF1372EC759}"
 	ProjectSection(SolutionItems) = preProject

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http.Dependencies;
 
-namespace SimpleInjector.WebApi.Extensions
+namespace SimpleInjector.Integration.WebApi.Extensions
 {
     /// <summary>
     ///     Container de Injeção de Dependência do WebApi implementado
