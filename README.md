@@ -80,12 +80,3 @@ public class Startup
   <package id="SimpleInjector.Integration.WebApi" version="2.7.3-alpha1" targetFramework="net451" />
 </packages>
 ```
-
-
-
-
-
-| Nome do Pacote | Versão |
-|----------------|--------|
-
-
