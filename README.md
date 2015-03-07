@@ -7,7 +7,7 @@ Install-Package SimpleInjector.Integration.WebApi.Extensions -Pre
 
 2º - Classe StartUp com a implementação do middleware
 
-'''javascript
+''' javascript
 
 public class Startup
     {
